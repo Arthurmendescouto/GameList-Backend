@@ -1,6 +1,6 @@
-package com.devsuperior.dslist.dto;
+package com.devmendes.dslist.dto;
 
-import com.devsuperior.dslist.entities.GameList;
+import com.devmendes.dslist.entities.GameList;
 
 public class GameListDTO {
     private Long id;

@@ -1,4 +1,4 @@
-package com.devsuperior.dslist.config;
+package com.devmendes.dslist.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -17,9 +17,11 @@ public class WebConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**").allowedMethods("*").allowedOrigins(corsOrigins);
+                // Permitindo acesso de localhost:4200
+                registry.addMapping("/**")
+                        .allowedMethods("*")
+                        .allowedOrigins(corsOrigins);
             }
         };
     }
-
 }

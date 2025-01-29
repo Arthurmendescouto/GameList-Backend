@@ -1,10 +1,10 @@
-package com.devsuperior.dslist.services;
+package com.devmendes.dslist.services;
 
-import com.devsuperior.dslist.dto.GameDTO;
-import com.devsuperior.dslist.dto.GameMinDTO;
-import com.devsuperior.dslist.entities.Game;
-import com.devsuperior.dslist.projections.GameMinProjection;
-import com.devsuperior.dslist.repositories.GameRepository;
+import com.devmendes.dslist.dto.GameDTO;
+import com.devmendes.dslist.dto.GameMinDTO;
+import com.devmendes.dslist.entities.Game;
+import com.devmendes.dslist.projections.GameMinProjection;
+import com.devmendes.dslist.repositories.GameRepository;
 import org.springframework.transaction.annotation.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
