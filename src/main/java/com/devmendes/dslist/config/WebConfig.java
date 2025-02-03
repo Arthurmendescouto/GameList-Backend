@@ -17,10 +17,10 @@ public class WebConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedMethods("*")
-                        .allowedOrigins(corsOrigins.split(","))
-                        .allowCredentials(true);
+                registry.addMapping("/**") // Permite todas as rotas
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Métodos permitidos
+                        .allowedOrigins(corsOrigins.split(",")) // Origem permitida (Vercel + locais)
+                        .allowCredentials(false); // Sem credenciais, já que você não está usando
             }
         };
     }
