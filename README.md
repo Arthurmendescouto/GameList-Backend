@@ -7,8 +7,7 @@ Esta é uma API simples desenvolvida em Spring Boot que gerencia duas listas de 
 - **Spring Boot**: Framework para desenvolvimento de aplicações Java.
 - **PostgreSQL**: Banco de dados relacional utilizado para armazenar as listas de jogos.
 - **DTO (Data Transfer Object)**: Padrão de design utilizado para transferir dados entre as camadas da aplicação.
-- **Railway**: Plataforma de deploy onde a API está hospedada.
-
+- 
 ## Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
